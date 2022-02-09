@@ -9,6 +9,15 @@ the xcb header files.
 Edit config.mk to match your local setup (dwm ist installed into the /usr/local
 namespace by default).
 
+### Requirements
+
+* Debian
+1. libxinerama-dev
+2. libx11-dev
+3. libxft-dev
+4. musl-dev
+5. libx11-xcb-dev
+
 Afterwards enter the following command to build and install dwm (if
 necessary as root):
 	
